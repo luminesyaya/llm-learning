@@ -25,3 +25,6 @@
   - `notes.md` — SGD → Momentum → AdaGrad → RMSProp → Adam → AdamW 进化史，Gradient Clipping，Weight Decay
 - `scaling-law/` — 规模规律
   - `notes.md` — Scaling Law 应用篇：超参数外推、Chinchilla 配比、面试 6 问
+- `data-engineering/` — 数据工程
+  - `notes.md` — 数据来源、质量过滤、MinHash 去重、Data Mixture、Token Budget
+  - `pipeline.py` — 数据处理管道 Demo（规则过滤 + MinHash 去重 + PII 脱敏）
