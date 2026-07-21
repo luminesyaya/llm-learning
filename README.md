@@ -21,3 +21,5 @@
 - `pretraining/` — 预训练
   - `notes.md` — Next-Token-Prediction 训练目标、CrossEntropyLoss、Shift 对齐
   - `train.py` — 完整训练脚本 (AdamW + gradient clipping + warmup cosine scheduler)
+- `optimizer/` — 优化器与训练稳定性
+  - `notes.md` — SGD → Momentum → AdaGrad → RMSProp → Adam → AdamW 进化史，Gradient Clipping，Weight Decay
