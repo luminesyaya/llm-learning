@@ -18,3 +18,6 @@
   - `swiglu.py` — SwiGLU 激活函数的 FFN 实现
 - `decoder/` — 完整 Decoder 实现
   - `decoder.py` — 整合 RMSNorm + RoPE + GQA + KV Cache + SwiGLU 的完整 Decoder + 自回归生成
+- `pretraining/` — 预训练
+  - `notes.md` — Next-Token-Prediction 训练目标、CrossEntropyLoss、Shift 对齐
+  - `train.py` — 完整训练脚本 (AdamW + gradient clipping + warmup cosine scheduler)
