@@ -23,3 +23,5 @@
   - `train.py` — 完整训练脚本 (AdamW + gradient clipping + warmup cosine scheduler)
 - `optimizer/` — 优化器与训练稳定性
   - `notes.md` — SGD → Momentum → AdaGrad → RMSProp → Adam → AdamW 进化史，Gradient Clipping，Weight Decay
+- `scaling-law/` — 规模规律
+  - `notes.md` — Scaling Law 应用篇：超参数外推、Chinchilla 配比、面试 6 问
